@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestClasses.MultipleDataLogin">
+        <methods>
+          <include name="dataUsername4Valid"/>
+          <include name="dataUsernamePassword1"/>
+          <include name="dataUsernamePassword2"/>
+          <include name="closingAct"/>
+          <include name="beforeMethod"/>
+          <include name="dataUsernamePassword4"/>
+          <include name="dataUsername2Valid"/>
+          <include name="dataUsername3Invalid"/>
+          <include name="dataUsername1Invalid"/>
+          <include name="dataUsername5Invalid"/>
+          <include name="dataUsernamePassword3"/>
+          <include name="login"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- TestClasses.MultipleDataLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
